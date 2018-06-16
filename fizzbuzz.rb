@@ -3,6 +3,10 @@
 def fizzbuzz(user_input)
   reponse = ""
   if user_input % 3 == 0
-    return "Fizz"
+    reponse += "Fizz"
   end
+  if user_input % 5 == 0
+    reponse += "Buzz"
+  end
+  
 end
