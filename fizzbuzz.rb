@@ -8,5 +8,7 @@ def fizzbuzz(user_input)
   if user_input % 5 == 0
     reponse += "Buzz"
   end
-  
+  if reponse == ""
+    reponse = nil
+  end
 end
